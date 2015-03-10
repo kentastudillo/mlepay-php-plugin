@@ -40,7 +40,7 @@ class MLePay {
             "sender_name"=> $transaction["customer_name"],
             "sender_phone"=> $transaction["customer_phone"],
             "sender_address"=> $transaction["customer_address"],
-            "amount"=> (int)($transaction["amount"] * 100), // Amount in CENTS
+            "amount"=> (int)($transaction["amount"]), // Amount in CENTS
             "currency"=> "PHP",
             "nonce"=> $nonce,
             "timestamp"=> $timestamp,
