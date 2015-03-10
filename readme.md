@@ -1,7 +1,6 @@
 ## Sample Code
-
+```sh
 $transaction = array(
-
     "customer_email" => "juandelacruz@mail.com",
     "customer_name" => "Juan Dela Cruz",
     "customer_phone" => "09197291823",
@@ -13,5 +12,5 @@ $transaction = array(
 );
 
 $mlepay = new MLePay();
-
 $mlepay->create_transaction($transaction);
+```
