@@ -10,9 +10,8 @@ Author URI: http://www.sym.ph
 */
 
 class MLePay {
-    private $ipn_url = "https://www.mlepay.com"; // Your IPN URL
-    private $epay_email = "kent.astudillo@gmail.com"; // Your registered epay email.
-    private $secret_key = 'YTNjMTg2ZDktMTg5MS00NmQ0LTk0OWUtMzZkOGViZmRiYjQ2ZjBmNzNlN2EtZjU1Ny00ZjFlLTg1NTctZTQzZDIwMzE0NmMy'; // Your ML ePay Secret Key
+    private $epay_email = ""; // Your registered epay email.
+    private $secret_key = ''; // Your ML ePay Secret Key
     private $epay_url = "https://www.mlepay.com/api/v2/transaction/create"; // Do not change this.
 
     /**
